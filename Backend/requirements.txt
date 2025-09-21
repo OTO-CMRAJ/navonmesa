@@ -1,0 +1,15 @@
+fastapi 
+uvicorn 
+pandas 
+scikit-learn
+scipy>=1.10
+python-docx 
+PyMuPDF 
+google-generativeai 
+python-dotenv
+unidecode
+PILLow
+pytesseract
+google-cloud-bigquery
+gspread
+google-auth

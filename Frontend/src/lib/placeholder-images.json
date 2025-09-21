@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "user-avatar-1",
+      "description": "User avatar placeholder 1",
+      "imageUrl": "https://picsum.photos/seed/avatar1/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-2",
+      "description": "User avatar placeholder 2",
+      "imageUrl": "https://picsum.photos/seed/avatar2/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-3",
+      "description": "User avatar placeholder 3",
+      "imageUrl": "https://picsum.photos/seed/avatar3/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "project-image-1",
+      "description": "Project image placeholder 1",
+      "imageUrl": "https://picsum.photos/seed/project1/600/400",
+      "imageHint": "technology abstract"
+    },
+    {
+      "id": "project-image-2",
+      "description": "Project image placeholder 2",
+      "imageUrl": "https://picsum.photos/seed/project2/600/400",
+      "imageHint": "business meeting"
+    },
+    {
+      "id": "project-image-3",
+      "description": "Project image placeholder 3",
+      "imageUrl": "https://picsum.photos/seed/project3/600/400",
+      "imageHint": "cityscape"
+    },
+     {
+      "id": "landing-hero",
+      "description": "Landing page hero image",
+      "imageUrl": "https://picsum.photos/seed/hero/1200/800",
+      "imageHint": "finance future"
+    }
+  ]
+}
