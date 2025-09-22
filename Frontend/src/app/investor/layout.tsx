@@ -1,6 +1,6 @@
 import { AppLayout } from "@/components/layout/app-layout";
-import { SidebarMenu, SidebarMenuItem, SidebarMenuButton } from "@/components/ui/sidebar";
-import { BrainCircuit, Briefcase, LayoutDashboard, Settings } from "lucide-react";
+import { SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarMenuSub, SidebarMenuSubItem, SidebarMenuSubButton } from "@/components/ui/sidebar";
+import { BrainCircuit, Briefcase, LayoutDashboard, Settings, Users } from "lucide-react";
 import Link from "next/link";
 
 const investorNav = (
@@ -14,6 +14,18 @@ const investorNav = (
       <SidebarMenuButton asChild tooltip="Projects">
         <Link href="/investor/projects"><Briefcase /><span>Projects</span></Link>
       </SidebarMenuButton>
+    </SidebarMenuItem>
+    <SidebarMenuItem>
+      <SidebarMenuButton tooltip="Startups">
+        <Users /><span>Startups</span>
+      </SidebarMenuButton>
+      <SidebarMenuSub>
+        <SidebarMenuSubItem>
+          <SidebarMenuSubButton asChild>
+            <a href="https://lookerstudio.google.com/embed/reporting/06d968f0-956d-496b-bb6f-c25ba0b9328e/page/aRzYF" target="_blank" rel="noopener noreferrer">Narrio</a>
+          </SidebarMenuSubButton>
+        </SidebarMenuSubItem>
+      </SidebarMenuSub>
     </SidebarMenuItem>
     <SidebarMenuItem>
       <SidebarMenuButton asChild tooltip="AI Analysis">

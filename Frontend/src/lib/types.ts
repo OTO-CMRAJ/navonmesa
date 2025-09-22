@@ -51,3 +51,16 @@ export interface Startup {
   avatarUrl: string;
   projects: string[]; // array of project ids
 }
+
+// Analysis/weights types used by hybrid analysis UI
+export type CategoryKey =
+  | 'team'
+  | 'market'
+  | 'product'
+  | 'economics'
+  | 'traction'
+  | 'financials'
+  | 'risk'
+  | 'growth_potential';
+
+export type InvestorWeights = Record<CategoryKey, number>;

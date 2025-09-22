@@ -1,4 +1,4 @@
-# **App Name**: FundConnect
+# **App Name**: Navonmeṣa
 
 ## Core Features:
 

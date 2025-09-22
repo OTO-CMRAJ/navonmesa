@@ -13,7 +13,7 @@ export default function SignupPage() {
         <Card>
           <CardHeader className="text-center">
             <CardTitle className="font-headline text-2xl">Create an Account</CardTitle>
-            <CardDescription>Join FundConnect to find your next opportunity</CardDescription>
+            <CardDescription>Join Navonmeṣa to find your next opportunity</CardDescription>
           </CardHeader>
           <CardContent>
             <SignupForm />

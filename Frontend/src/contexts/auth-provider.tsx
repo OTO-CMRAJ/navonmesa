@@ -16,7 +16,7 @@ interface AuthContextType {
 
 export const AuthContext = createContext<AuthContextType | null>(null);
 
-const AUTH_STORAGE_KEY = "fundconnect_user";
+const AUTH_STORAGE_KEY = "Navonmeṣa_user";
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);

@@ -31,6 +31,9 @@ export default function Home() {
           <Logo />
           <div className="flex items-center gap-4">
             <Button variant="ghost" asChild>
+              <a href="https://lookerstudio.google.com/embed/reporting/1abfe335-5c91-4cb8-9aa1-ddd35f93149c/page/pTxYF">Company List</a>
+            </Button>
+            <Button variant="ghost" asChild>
               <Link href="/login">Login</Link>
             </Button>
             <Button asChild>
@@ -55,7 +58,7 @@ export default function Home() {
                 Connecting Startups and Investors
               </h1>
               <p className="mt-6 text-lg text-gray-200 md:text-xl">
-                FundConnect is the premier platform for discovering groundbreaking projects and securing the funding to make them a reality.
+                Navonmeṣa is the premier platform for discovering groundbreaking projects and securing the funding to make them a reality.
               </p>
               <div className="mt-8 flex justify-center gap-4">
                 <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -72,7 +75,7 @@ export default function Home() {
         <section id="features" className="w-full py-20 md:py-28 lg:py-32 bg-card">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center">
-              <h2 className="text-3xl font-headline font-bold sm:text-4xl md:text-5xl">Why Choose FundConnect?</h2>
+              <h2 className="text-3xl font-headline font-bold sm:text-4xl md:text-5xl">Why Choose Navonmeṣa?</h2>
               <p className="mt-4 max-w-2xl mx-auto text-muted-foreground md:text-lg">
                 We provide the tools and connections you need to succeed, whether you're building the future or funding it.
               </p>
@@ -163,7 +166,7 @@ export default function Home() {
        <footer className="border-t bg-card">
         <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 py-8 md:flex-row md:px-6">
           <Logo />
-          <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} FundConnect. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Navonmeṣa. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">Privacy Policy</Link>
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">Terms of Service</Link>
